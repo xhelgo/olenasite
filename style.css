@@ -1,0 +1,60 @@
+body {background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='40' height='40' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(135)'%3E%3Crect width='100%25' height='100%25' fill='rgba(255, 245, 245,1)'/%3E%3Cpath d='M0 29a 9-9 0 0 0 9-9a 11-11 0 0 1 11-11v2a-9 9 0 0 0-9 9a-11 11 0 0 1-11 11zM0 69a 9-9 0 0 0 9-9a 11-11 0 0 1 11-11v2a-9 9 0 0 0-9 9a-11 11 0 0 1-11 11z' fill='rgba(197, 48, 48,1)'/%3E%3Cpath d='M20 29.5a 9.5-9.5 0 0 0 9.5-9.5a 10.5-10.5 0 0 1 10.5-10.5v1a-9.5 9.5 0 0 0-9.5 9.5a-10.5 10.5 0 0 1-10.5 10.5z' fill='rgba(254, 178, 178,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ")}
+
+img {width: 100%;}
+
+h1 {color: #191A1E;
+	font-family: Roboto Slab;
+	font-weight: 700;
+	font-size: 35px;
+	color: #000000;}
+
+h2 {font-family: Roboto;
+	font-weight: 700;
+	color: #000000;}
+
+h3 {font-family: Roboto;
+	font-weight: 700;
+	color: #000000;}
+
+p {font-family: Roboto;
+	font-weight: 400;
+	color: #000000;}
+
+a:link {color: #b12a27;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-decoration: none;}
+
+a:hover {color: #9e1715;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-decoration: none;}
+	
+a:visited {color: #6b100e;}
+
+a:active {color: #e86c09;}
+
+.container {width: 900px;
+				background: #f7f7f7;
+				margin: 0px auto 0px auto;}
+
+.baner  {width: 100%;}
+
+.menu {height: 25px;
+		line-height: 22px;
+		text-align: center;}
+
+.main {width: 70%;
+		background: #f3e7ee;
+		float:left;
+		padding: 0px 10px 0px 10px;}
+
+.reklama {width: 27%;
+			float:right;}
+
+.footer {width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #b12a27;
+	color: #ffffff;
+	text-align: center;}
